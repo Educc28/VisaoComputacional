@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+.vs 
+chest_xray/
+*.pth
+*.joblib
+
+*
+!*/
+!.gitignore
+!*.ipynb
+!**/*.ipynb
+**/.ipynb_checkpoints/
+
+venv
